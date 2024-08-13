@@ -45,12 +45,10 @@ ul li{
 }
 ul li a{
     display: block;
-   
     color: #353535;
     font-family: "Poppins", sans-serif;
     position:relative;
     padding: 18px 30px 5px;
-    
 }
 ul li a::before{
     content: "";
