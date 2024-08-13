@@ -39,16 +39,33 @@ nav{
 .nav-logo .man{
     color: #F8BC17;
 }
-ul{
-    display: flex;
-    gap: 60px;
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    display: block;
+   
     color: #353535;
     font-family: "Poppins", sans-serif;
+    position:relative;
+    padding: 18px 30px 5px;
     
 }
-ul .home{
-    text-decoration: underline;
-   
+ul li a::before{
+    content: "";
+    width: 0%;
+    height:1px ;  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #353535;
+    transition: 0.35s;
+}
+
+.home a::before,
+nav .nav-links li:hover a::before {
+  width: 100%;
 }
 
 
@@ -99,11 +116,15 @@ ul .home{
     font-weight: 500;
     margin-bottom: 40px;
     border: none;
+    cursor: pointer;
 }
 .second-btn{
     background-color: white;
     color: #353535;
     border: 1px solid black;
+}
+.fa-paper-plane{
+    color: white;
 }
 
 
@@ -129,8 +150,11 @@ ul .home{
     gap: 20px;
 }
 .follow-icon img{
-    align-items: center;
     margin-right: 10px;
+}
+.follow-icon{
+    align-items: center;
+    display: flex;
 }
 .over-btn-one,.over-btn-two{
     position: relative;
@@ -223,10 +247,15 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 1.25rem;
+    cursor: pointer;
+    transition: ease-in-out;
 
 }
-
-
+.about-btn:hover{
+    background-color: blanchedalmond;
+    color: #ff9100;
+    font-weight: 600;
+}
 
 
 /* Card Section */
@@ -319,28 +348,6 @@ width: 80%;
 .one{
     margin-right: 60px;
 }
-/* .help{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.help-text{
-    text-align: end;
-    width: 50%;
-}
-.help-card .help-image{
-  
-}
-.help-card{
-    display: flex;
-    width: 50%;
-    justify-content: right;
-    
-}
-.help-image-text{
-    width: 200px;
-} */
-
 
 
 
@@ -405,6 +412,11 @@ width: 80%;
     }
     .about-text{
         text-align: center;
+        
+    }
+    .about-text p{
+        text-align: justify;
+        margin: 5px 30px;
     }
 
 
