@@ -5,6 +5,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    color: #353535;
 }
 .none{
     display: none;
@@ -14,6 +15,8 @@
 }
 body{
     color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+
 }
 .nav-section{
     margin: 0 165px;
@@ -131,25 +134,55 @@ ul .home{
 }
 .over-btn-one,.over-btn-two{
     position: relative;
-    bottom: 430px;
+    bottom: 400px;
+    right: 40px;
     
    
     padding: 13px 44px;
     background-color: #FFFF;
     border-radius: 10px;
-    border: none;
-    box-shadow: 1px 1px 1px 2px rgba(161, 154, 154, 0.2), 1px 1px 1px 2px rgba(0,0,0,0.10);
+    border: 1px solid #f5f5f5;
+   
 }
 .over-btn-two{
-    bottom: 500px;
-    left: 200px;
+    bottom: 470px;
+    left: 150px;
+}
+.over-card{
+    max-width: 180px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 30px 10px;
+    position:relative;
+    bottom: 200px;
+    right: 100px;
+    background-color: white;
+}
+.over-card img{
+    margin: 5px auto;
+    display: block;
+}
+.over-card h2{
+    color: #353535;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.over-card p{
+    font-size: 8px;
+    color: #7A7A7A;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    
+
 }
 
 
 
 /* About */
 .about-section{
-    margin-top: 40px;
+    margin-top: -90px;
     background: rgb(36,25,0);
 background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rgba(255,171,53,1) 61%, rgba(250,176,56,1) 66%, rgba(255,154,0,1) 73%);
 }
@@ -205,10 +238,7 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
     padding: 47px 57px;
     border-radius: 20px;
     background-color: #FFFFFF;
-    box-shadow: 
-  inset 5px 5px 10px , 
-  inset -5px -5px 10px ;
-    border: none;
+    border: 4px solid whitesmoke;
 }
 .card img{
     margin: 0 auto;
@@ -233,6 +263,90 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
     
 }
 
+/* Help Section */
+.help-section{
+    margin: 130px 165px;
+
+}
+.help{
+    display: flex;
+}
+.help-cards{
+    width: 50%;
+}
+.help-text{
+    width: 50%;
+    text-align: right;
+}
+.help-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 26px;
+}
+.help-text p{
+    font-size: 1.05rem;
+    line-height: 190%;
+    margin-bottom: 30px;
+}
+.help-card{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    width: 340px;
+    padding: 17px 15px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+.help-card .help-image img{
+width: 80%;
+    
+  
+}
+.help-image-text h2{
+    font-size: 18px;
+}
+.help-image-text p{
+    font-size: 12px;
+}
+
+.help-over{
+    display: inline-block;
+    text-align: left;
+    
+}
+.one{
+    margin-right: 60px;
+}
+/* .help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help-text{
+    text-align: end;
+    width: 50%;
+}
+.help-card .help-image{
+  
+}
+.help-card{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    
+}
+.help-image-text{
+    width: 200px;
+} */
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .nav-section{
@@ -256,7 +370,8 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
     }
     .over-btn-one,.over-btn-two{
         position: relative;
-        bottom: 130px;
+        bottom: 330px;
+        left: 30px;
         
        
         padding: 13px 20px;
@@ -264,7 +379,12 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
     }
     .over-btn-two{
         bottom: 350px;
-        left:120px;
+        left:140px;
+    }
+    .over-card{
+        
+        opacity: 0;
+        
     }
 
     .btn-primary{
@@ -297,6 +417,18 @@ background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rg
         align-items: center;
     }
 
+
+    .help{
+        flex-direction: column-reverse;
+    }
+    .help-text{
+        width: 100%;
+        text-align: left;
+    }
+    .help-section{
+        margin: 10px 20px;
+    
+    }
 
     
 }
