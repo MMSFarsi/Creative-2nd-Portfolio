@@ -561,6 +561,54 @@ width: 80%;
   .percentage {
     font-weight: bold;
   }
+
+
+  /* Service Section */
+  #service-section{
+    background-color: #FFF7D5;
+    padding-bottom: 30px;
+    padding: 30px;
+  }
+  #service-section .title-text{
+    text-align: center;
+  }
+  #service-section .title-text h2{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 13px;
+  }
+  #service-section .title-text p{
+    color: #7A7A7A;
+  }
+ 
+
+  .service-cards{
+    margin: 90px 165px;
+    display: flex;
+    gap: 25px;
+  }
+.service-card{
+    width: 30%;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+.special-card{
+    background-color: #FFCC00;
+    height: 40%; 
+    transform: scale(1.08);  
+}
+.service-card img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+   
+}
+.service-card h3{
+    margin-bottom: 20px;
+}
   
 
 
