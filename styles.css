@@ -609,6 +609,124 @@ width: 80%;
 .service-card h3{
     margin-bottom: 20px;
 }
+
+/* Feedback Section */
+#feedback-section{
+    
+    margin: 30px 165px ;
+}
+#feedback-section h2{
+    font-size: 3rem;
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 15px;
+
+}
+#feedback-section p{
+    color: #7A7A7A;
+    
+
+}
+.feedback{
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+   
+}
+.feedback-text p{
+    color: #7A7A7A;
+    font-size: 1.125rem;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.feedback-text h4{
+    color: #353535;
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+.feedback-text span{
+    color: #7A7A7A;
+    font-size: .8rem;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+/* Blog Section */
+#blog-post-section{
+    margin: 30px 120px;
+}
+#blog-post-section h2{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 100px;
+
+}
+.blog-card{
+    display: flex;
+    gap: 30px;
+}
+.blog-text p{
+    font-size: .9rem;
+    color: #7A7A7A;
+    display: inline;
+    margin-right: 25px;
+}
+.blog-text h6{
+    font-size: .8rem;
+   display: inline;
+   font-weight: 600;
+}
+.blog-text h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-weight: 190%;
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+.blog-text a{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.blog-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
