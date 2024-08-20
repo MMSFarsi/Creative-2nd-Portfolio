@@ -761,6 +761,72 @@ input::placeholder{
  
 }
 
+/* Footer */
+footer{
+    background-color: #575757;
+    
+}
+.footer{
+    padding: 100px 165px;
+    display: flex;
+    
+}
+.footer-logo{
+    width: 30%;
+}
+.footer-details{
+    width: 40%;
+}
+.footer-links{
+    width: 30%;
+}
+.footer-logo h1{
+    font-family: "Potta One", system-ui;
+    font-size: 1.75rem;
+    line-height: 40px;
+    margin-bottom: 150px;
+}
+.footer-logo .sal{
+    color: white;
+}
+.footer-logo .man{
+    color: #F8BC17;
+}
+.footer-logo p{
+    color: #BBB9B9;
+    
+}
+.footer-logo span{
+    color: white;
+
+}
+.footer-details h2{
+    font-size: 2rem;
+    color: white;
+}
+.footer-details p{
+    color: #BBB9B9;
+    line-height: 180%;
+    margin-bottom: 11%;
+}
+.footer-details span{
+    color: white;
+}
+
+.footer-links a{
+    margin-left: 100px;
+}
+.footer-links .follow{
+    color: white;
+    
+    margin-top: 180px;
+}
+.footer-links .follow .follow-title{
+    color: white;
+}
+.footer-links .follow .follow-icon img{
+    color: white;
+}
 
 
 
